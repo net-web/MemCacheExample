@@ -1,0 +1,13 @@
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\FSOrderCenter.Common.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\FSOrderCenter.Common.pdb
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\obj\Debug\FSOrderCenter.Common.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\obj\Debug\FSOrderCenter.Common.pdb
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\Memcached.ClientLibrary.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\log4net.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\obj\Debug\FSOrderCenter.Common.csprojResolveAssemblyReference.cache
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\FSOrderCenter.Model.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\EntityFramework.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\FSOrderCenter.Model.pdb
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\EntityFramework.xml
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Common\bin\Debug\zh-Hans\EntityFramework.resources.dll

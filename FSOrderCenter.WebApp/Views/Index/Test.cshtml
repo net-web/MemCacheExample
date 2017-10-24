@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MemCacheTest</title>
+</head>
+<body>
+    <div>
+        <h2>MemCache缓存测试时间</h2>
+        <h3>直接查询数据库用时：@ViewData["CustomerTime"] 毫秒</h3>
+    </div>
+
+    <table>
+        <tr>
+            <td>编号</td>
+            <td>姓名</td>
+            <td>号码</td>
+            <td>短信次数</td>
+        </tr>
+        @Html.Raw( @ViewBag.listSource)
+    </table>
+</body>
+</html>

@@ -1,0 +1,12 @@
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\FSOrderCenter.Model.dll.config
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\FSOrderCenter.Model.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\FSOrderCenter.Model.pdb
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\EntityFramework.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\EntityFramework.xml
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\obj\Debug\FSOrderCenter.Model.dll
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\obj\Debug\FSOrderCenter.Model.pdb
+E:\计划文档\佛山\MemCacheTest\FSOrderCenter.Model\obj\Debug\FSOrderCenter.Model.csprojResolveAssemblyReference.cache

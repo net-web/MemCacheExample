@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LogWindows</title>
+    <style>
+        div{
+            margin:0 auto;
+            width:980px;
+            padding-top:200px;
+        }
+        li{
+            list-style-type:circle;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        <h3>Log4NetHelper 写入windows日志到文本，详细信息：</h3>
+        <ul>
+            @Html.Raw(ViewData["EventList"])
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>缓存数据，指定过期时间</title>
+    <style>
+        div{
+            padding-top:200px;
+            margin:0 auto;
+            width:980px;
+        }
+    </style>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    
+</head>
+<body>
+    <div> 
+        <h4>ID为：44566789976 的用户姓名 @ViewData["userName"] </h4>
+        <span id="spanTime">10</span>秒后过期
+        <button id="start">开始缓存</button>
+    </div>
+    <script>
+        $(function () {
+            $("#start").on("click", function () {
+                var time = 9;
+                setInterval(function () {
+                    $("#spanTime").html(time);
+                    //console.log($("#spanTime").html(time));
+                    if (time == 0) {
+                        window.location.href = "/Index/ShowMessage";
+                    }
+                    time--;
+                    console.log(time);
+                }, 1000);
+            });
+        });
+    </script>
+
+</body>
+</html>

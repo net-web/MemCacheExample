@@ -1,0 +1,58 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>.Net自带缓存与MemCache对比</title>
+    <style>
+        li{
+            list-style-type:circle;
+        }
+        li:hover{
+            color:yellowgreen;
+            cursor:no-drop;
+        }
+        #main {
+            width:980px;
+            margin: 0 auto;
+        }
+
+            #main .netCache {
+                border: 4px dotted green;
+                padding-left: 50px;
+                margin-top: 50px;
+            }
+
+            #main .memcache {
+                border: 4px dotted green;
+                padding-left:50px;
+                margin-top:50px;
+            }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="netCache">
+            <h3>.Net自带缓存</h3>
+            <ul>
+                <li>只有一台服务器，对数据库读写压力不大</li>
+                <li>数据同步开销会比较大</li>
+                <li>使用场景: 企业展示型网站不常修改的信息，比如公司电话、公司地址、公司传真等</li>
+            </ul>
+        </div>
+        <div class="memcache">
+            <h3>MemCache缓存</h3>
+            <ul>
+                <li>分布式，不同主机上多个用户同时访问，解决共享内存单机应用的局限</li>
+                <li>高效，MemCache会均衡任何数量的打开连接</li>
+                <li>减少数据库负载，提升访问速度</li>
+                <li>存储格式多样，图像、视频、文件、数据库检索的结果</li>
+                <li>存储数据量，32位系统最大2G，64位系统则更大</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
